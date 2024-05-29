@@ -3,23 +3,18 @@
 // And always watch out for overflows e.g in the last test
 // Let try to use them
 
-// I AM NOT DONE
-
 fn modulus(x: u8, y: u8) -> u8 {
-    // calculate the modulus of x and y
-    // FILL ME
+    let res = x % y;
     res
 }
 
 fn floor_division(x: usize, y: usize) -> usize {
-    // calculate the floor_division of x and y
-    // FILL ME
+    let res = x / y;
     res
 }
 
 fn multiplication(x: u64, y: u64) -> u64 {
-    // calculate the multiplication of x and y
-    // FILL ME
+    let res = x * y;
     res
 }
 
@@ -55,5 +50,5 @@ fn test_mul() {
 #[test]
 #[should_panic]
 fn test_u64_mul_overflow_1() {
-    let _res = multiplication(0x100000000, 0x100000000);
+    let res = multiplication(0x100000000, 0x100000000);
 }

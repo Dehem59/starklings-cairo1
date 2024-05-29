@@ -3,7 +3,6 @@
 // This should add OwnableComponent containing functionality which any contracts can include.
 // But something is fishy here as this component is not working, can you find the error and make the tests pass?
 
-// I AM NOT DONE
 
 use starknet::ContractAddress;
 
